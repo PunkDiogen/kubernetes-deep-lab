@@ -102,13 +102,13 @@ Firmware Version: rel-1.16.3-0-ga6ed6b701f0a-prebuilt.qemu.org
 ### ip -br addr
 
 ```
-    Deeplab-control-plane-1
-    lo               UNKNOWN        127.0.0.1/8 ::1/128 
+Deeplab-control-plane-1
+lo               UNKNOWN        127.0.0.1/8 ::1/128 
 eth0             UP             192.168.0.92/24 fe80::be24:11ff:fe52:84b8/64 
 ```
 ```
-    Deeplab-worker-1
-    lo               UNKNOWN        127.0.0.1/8 ::1/128 
+Deeplab-worker-1
+lo               UNKNOWN        127.0.0.1/8 ::1/128 
 eth0             UP             192.168.0.96/24 fe80::be24:11ff:fe0b:d6d1/64 
 ```
 ```
@@ -120,21 +120,21 @@ eth0             UP             192.168.0.97/24 fe80::be24:11ff:fea1:889f/64
 ### free -h
 
 ```
-    Deeplab-control-plane-1
-    total        used        free      shared  buff/cache   available
+Deeplab-control-plane-1
+               total        used        free      shared  buff/cache   available
 Mem:           3.8Gi       397Mi       3.0Gi       1.0Mi       628Mi       3.4Gi
 Swap:             0B          0B          0B
 ```
 
 ```
     Deeplab-worker-1
-                   total        used        free      shared  buff/cache   available
+               total        used        free      shared  buff/cache   available
 Mem:           3.8Gi       382Mi       3.0Gi       1.0Mi       651Mi       3.5Gi
 Swap:             0B          0B          0B
 ```
 ```
     Deeplab-worker-2
-                   total        used        free      shared  buff/cache   available
+               total        used        free      shared  buff/cache   available
 Mem:           3.8Gi       405Mi       3.0Gi       1.0Mi       631Mi       3.4Gi
 Swap:             0B          0B          0B
 ```
